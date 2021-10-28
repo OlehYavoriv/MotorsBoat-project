@@ -6,6 +6,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 *,
 *::after,
 *::before {
@@ -215,7 +219,7 @@ a {
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1350px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -227,4 +231,140 @@ a {
     background-position: center;
     background-attachment: fixed;
     min-height: 100vh;
+}
+
+.main__title {
+    font-family: $font-m;
+    color: $color-w;
+    font-weight: 500;
+    font-size: 90px;
+    position: relative;
+    top: 230px;
+}
+
+.btn_catalog {
+    border-radius: 5px;
+    padding: 10px 50px 10px 50px;
+    position: relative;
+    top: 320px;
+    left: 200px;
+    color: $color-w;
+    font-size: 18px;
+    font-family: $font-m;
+    font-weight: 400;
+}
+
+@keyframes animateLeft {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+@keyframes animateTop {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes animateRight {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes animateBottom {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.animated-button1 {
+    padding: 10px 50px;
+    display: inline-block;
+    transform: translate(0%, 0%);
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: #ad8585;
+        opacity: 0;
+        transition: .2s opacity ease-in-out;
+    }
+
+    span {
+        position: absolute;
+
+        &:nth-child(1) {
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(to left, rgba(43, 8, 8, 0), #ffffff);
+            animation: 2s animateTop linear infinite;
+        }
+
+        &:nth-child(2) {
+            top: 0px;
+            right: 0px;
+            height: 100%;
+            width: 2px;
+            background: linear-gradient(to top, rgba(43, 8, 8, 0), #ffffff);
+            animation: 2s animateRight linear -1s infinite;
+        }
+
+        &:nth-child(3) {
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(to right, rgba(43, 8, 8, 0), #ffffff);
+            animation: 2s animateBottom linear infinite;
+        }
+
+        &:nth-child(4) {
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 2px;
+            background: linear-gradient(to bottom, rgba(43, 8, 8, 0), #ffffff);
+            animation: 2s animateLeft linear -1s infinite;
+        }
+    }
+
+    &:hover {
+        &::before {
+            opacity: 0.2;
+        }
+    }
+}
+
+.boats_motors {
+    color: $color-w;
+    font-family: $font-m;
+    font-size: 50px;
+    font-weight: 400;
+    position: relative;
+    top: 250px;
+    left: 120px;
 }
