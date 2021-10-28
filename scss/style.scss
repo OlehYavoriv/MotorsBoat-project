@@ -406,12 +406,12 @@ a {
 
 .tabs__block {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 190px);
+    grid-template-columns: repeat(auto-fill, 225px);
     justify-content: space-between;
     grid-row-gap: 43px;
     grid-column-gap: 83px;
     position: relative;
-    max-width: 1350px;
+    margin: 0 auto;
 }
 
 .pop-product__img {
@@ -454,4 +454,103 @@ a {
 
 .bold {
     font-weight: 800;
+}
+
+.section__title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 34px;
+    font-family: $font-m;
+    color: $color-b;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.categories__box {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 375px);
+    justify-content: space-between;
+    grid-row-gap: 15px;
+    grid-column-gap: 20px;
+    position: relative;
+    margin: 60px auto auto auto;
+}
+
+.categories__box-item {
+    background: $color-w;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 373px;
+    height: 255px;
+    padding: 31px 80px;
+}
+
+.box-item__title {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 700;
+    font-family: $font-m;
+    color: $color-g;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.categories__item__list {
+    ul {
+        list-style-type: disc;
+    }
+
+    li {
+        font-size: 18px;
+        line-height: 23px;
+        font-weight: 400;
+        font-family: $font-r;
+        color: $color-b;
+        margin-left: 70px;
+    }
+
+    margin-bottom: 18px;
+}
+
+.categories__btn__see {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 700;
+    font-family: $font-m;
+    color: $color-g;
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    display: block;
+    transition: all 0.4s;
+    cursor: pointer;
+
+    span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.4s;
+
+        &:after {
+            content: '\27F6';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+    }
+
+    &:hover {
+        span {
+            padding-right: 50px;
+
+            &:after {
+                opacity: 1;
+                right: 0;
+            }
+        }
+    }
 }
