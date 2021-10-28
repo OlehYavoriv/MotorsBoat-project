@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Motors Boat</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motors Boat</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./img/boat-icon-vector.png" type="image/png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
 </head>
+
 <body>
-    
+  <div id="preloader">
+    <div id="preloader_preload"></div>
+  </div>
+  <header class="header">
+    <div class="container">
+      <div class="header__body">
+        <a href="#Main" class="header__logo">
+          <img class="logo-style" src="./img/logomain.png" alt="Logo" height="32px" width="115" />
+        </a>
+        <div class="header__burger">
+          <span></span>
+        </div>
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li class="header__link"><a href="#categories">Categories</a></li>
+            <li class="header__link"><a href="#About">About us</a></li>
+            <li class="header__link"><a href="#delivery">Delivery</a></li>
+            <li class="header__link"><a href="#Articles">Articles</a></li>
+            <li class="header__link"><a href="#reviews">Reviews</a></li>
+            <li class="header__link"><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header_phone">
+          <a href="tel:+380970509048">(097)-050-90-48</a>
+        </div>
+        <div class="header__icons d-flex">
+          <a href="#"><i class="fas fa-search"></i></a>
+          <a href="#" data-toggle="modal" data-target="#modal-1"><i class="far fa-user"></i></a>
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        <div class="header__work-time">
+          <p>
+            Work time:<br />
+            Mon-Sun 10-19
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="section" id="Main">
+    <div class="container">
+      <h1 class="main__title"></h1>
+
+    </div>
+  </section>
+  <script src="./js/jquery.js"></script>
+  <script src="./js/wow.min.js"></script>
+  <script src="./js/animation.js"></script>
+  <script src="./js/burger-menu.js"></script>
+  <script src="./js/preloader.js"></script>
 </body>
+
 </html>
