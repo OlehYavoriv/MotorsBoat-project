@@ -809,3 +809,136 @@ a {
     position: relative;
     top: 50px;
 }
+
+.horizontal__line {
+    max-width: 1157.5px;
+    height: 0px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #A4A4A4;
+}
+
+.pre__footer {
+    display: flex;
+    max-width: 1122px;
+    padding: 0 15px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 68px;
+    margin-bottom: 110px;
+}
+
+.footer__title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: $font-m;
+    color: $color-b;
+    margin-bottom: 7px;
+}
+
+.under__footer {
+    width: 100%;
+    height: 100px;
+    background-color: #001420;
+    position: relative;
+}
+
+.to__top,
+.footer_dev {
+    font-size: 18px;
+    line-height: 23px;
+    font-family: $font-m;
+    color: $color-w;
+}
+
+.first__section {
+
+    width: 276px;
+    height: 100%;
+}
+
+.footer__contact {
+    margin-left: 48px;
+    margin-bottom: 17px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: $font-m;
+    color: $color-b;
+}
+
+.footer__icon {
+    color: $color-b;
+    font-size: 18px;
+    vertical-align: top;
+    margin-right: 14px;
+}
+
+.networks {
+    a {
+        font-size: 20px;
+        color: $color-b;
+    }
+
+    width: 150px;
+    height: 20px;
+    margin-left: 48px;
+}
+
+.second__section {
+
+    p,
+    a {
+        padding-left: 20px;
+        padding-bottom: 7px;
+        font-size: 18px;
+        line-height: 22px;
+        font-family: $font-m;
+        color: $color-b;
+        font-weight: 400;
+    }
+
+    p:hover {
+        text-decoration: underline;
+    }
+
+    width: 276px;
+    height: 100%;
+    padding-top: 25px;
+}
+
+.third__section {
+
+    p,
+    a {
+        padding-left: 20px;
+        padding-bottom: 7px;
+        font-size: 18px;
+        line-height: 22px;
+        font-family: $font-m;
+        color: $color-b;
+        font-weight: 400;
+    }
+
+    p:hover {
+        text-decoration: underline;
+    }
+
+    width: 310px;
+    height: 100%;
+    padding-top: 25px;
+
+}
+
+.footer__cont {
+    top: 0;
+    right: auto;
+    left: auto;
+    width: 1122px;
+    margin: 0 auto;
+    padding: 0 15px;
+    bottom: 0;
+    justify-content: space-between;
+}
