@@ -21,3 +21,15 @@ document.forms.form.onsubmit = function () {
   console.log("You have a new message!\n" + "Name: " + name + "\n" + "Email: " + email + "\n" + "Message: " + message);
   return false;
 }
+
+$(document).on('click', '[data-toggle="modal"]', function () {
+  var target = $(this).attr('data-target');
+  console.log(target);
+  $(target).addClass('show');
+  return false;
+});
+
+$('.modal .close').on('click', function () {
+  $(this).closest('.modal').removeClass('show');
+  return false;
+})
