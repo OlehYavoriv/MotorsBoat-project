@@ -219,7 +219,7 @@ a {
 }
 
 .container {
-    max-width: 1350px;
+    max-width: 1280px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -1130,4 +1130,173 @@ a {
     margin-left: 148px;
     color: $color-form;
     margin-bottom: 40px;
+}
+
+/*<!--Registration-->*/
+#section{
+    background-image: url(../img/img-next-sec.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.center{
+    text-align: center;
+}
+.personal__area{
+    color: $color-w;
+    font-family: $font-m;
+    font-size: 50px;
+    font-weight: 400;
+    position: relative;
+    top: 240px;
+}
+.phone__time {
+    width: 284px;
+    height: 41px;
+    float: right;
+    top: 530px;
+    position: relative;
+
+}
+.btn_section {
+    border-radius: 5px;
+    padding: 10px 50px 10px 50px;
+    position: relative;
+    top: 320px;
+left: 498px;
+    color: $color-w;
+    font-size: 18px;
+    font-family: $font-m;
+    font-weight: 400;
+}
+.registration__form__first{
+    max-width: 1158px;
+    margin: 0 auto;
+    margin-top: 55px;
+    margin-bottom: 25px;
+min-height: 717px;
+padding: 47px 49px 89px 35px;
+    background: $color-w;
+border: 1px solid #E4E5E4;
+}
+.registration__form__second{
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 47px 49px 89px 35px;
+    background: $color-w;
+border: 1px solid #E4E5E4;
+}
+.form__reg__title{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    font-family: $font-m;
+    color: $color-g;
+    margin-bottom: 28px;
+}
+
+.required{
+font-size: 20px;
+  color: #DD0D0D;
+}
+
+.form__reg__label {
+    float: left;
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: $font-m;
+    color: $color-form;
+    padding: 10px;
+  }
+  
+  .form__reg__input{
+    float: right;
+    border: 1px solid #E4E5E4;
+    width: 80%;
+height: 66px;
+padding: 10px 10px 10px 10px;
+font-size: 18px;
+    margin-top: 25px;
+  }
+.form__reg__radio{
+    width: 16px;
+    height: 16px;
+}
+
+.radio{
+    height: 58px;
+    margin-top: 60px;
+    align-items: center;
+}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.form__reg__sub{
+    float: left;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: $font-m;
+    color: $color-form;
+}
+.radio__btn{
+    width: 190px;
+}
+  .btn__second-form {
+      float: right;
+    font-size: 15px;
+line-height: 23px;
+    font-weight: 400;
+    background-color: $color-g;
+    font-family: $font-m;
+    color: $color-w;
+padding: 19px 112px;
+    text-align: center;
+    
+    transition: all 0.4s;
+    cursor: pointer;
+
+    span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.4s;
+
+        &:after {
+            content: '\27F6';
+position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+    }
+
+    &:hover {
+        span {
+            padding-right: 40px;
+
+            &:after {
+                opacity: 1;
+                right: 0;
+            }
+        }
+    }
+}
+
+.label__radio{
+    font-size: 18px;
+line-height: 25px;
+font-weight: 400;
+font-family: $font-m;
+color: $color-form;
+}
+.reg-form *{
+    outline: none;
 }
