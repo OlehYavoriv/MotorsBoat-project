@@ -18,3 +18,7 @@ $('.modal .close').on('click', function () {
   $(this).closest('.modal').removeClass('show');
   return false;
 })
+
+$(function(){
+  $("#includedContent").load("footer.html"); 
+});
