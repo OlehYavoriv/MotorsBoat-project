@@ -1133,7 +1133,7 @@ a {
 }
 
 /*<!--Registration-->*/
-#section{
+#section {
     background-image: url(../img/img-next-sec.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1141,10 +1141,12 @@ a {
     background-attachment: fixed;
     min-height: 100vh;
 }
-.center{
+
+.center {
     text-align: center;
 }
-.personal__area{
+
+.personal__area {
     color: $color-w;
     font-family: $font-m;
     font-size: 50px;
@@ -1152,6 +1154,7 @@ a {
     position: relative;
     top: 240px;
 }
+
 .phone__time {
     width: 284px;
     height: 41px;
@@ -1160,35 +1163,39 @@ a {
     position: relative;
 
 }
+
 .btn_section {
     border-radius: 5px;
     padding: 10px 50px 10px 50px;
     position: relative;
     top: 320px;
-left: 498px;
+    left: 498px;
     color: $color-w;
     font-size: 18px;
     font-family: $font-m;
     font-weight: 400;
 }
-.registration__form__first{
+
+.registration__form__first {
     max-width: 1158px;
     margin: 0 auto;
     margin-top: 55px;
     margin-bottom: 25px;
-min-height: 717px;
-padding: 47px 49px 89px 35px;
+    min-height: 717px;
+    padding: 47px 49px 89px 35px;
     background: $color-w;
-border: 1px solid #E4E5E4;
+    border: 1px solid #E4E5E4;
 }
-.registration__form__second{
+
+.registration__form__second {
     max-width: 1158px;
     margin: 0 auto;
     padding: 47px 49px 89px 35px;
     background: $color-w;
-border: 1px solid #E4E5E4;
+    border: 1px solid #E4E5E4;
 }
-.form__reg__title{
+
+.form__reg__title {
     font-weight: 600;
     font-size: 25px;
     line-height: 25px;
@@ -1197,9 +1204,9 @@ border: 1px solid #E4E5E4;
     margin-bottom: 28px;
 }
 
-.required{
-font-size: 20px;
-  color: #DD0D0D;
+.required {
+    font-size: 20px;
+    color: #DD0D0D;
 }
 
 .form__reg__label {
@@ -1211,33 +1218,36 @@ font-size: 20px;
     font-family: $font-m;
     color: $color-form;
     padding: 10px;
-  }
-  
-  .form__reg__input{
+}
+
+.form__reg__input {
     float: right;
     border: 1px solid #E4E5E4;
     width: 80%;
-height: 66px;
-padding: 10px 10px 10px 10px;
-font-size: 18px;
+    height: 66px;
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
     margin-top: 25px;
-  }
-.form__reg__radio{
+}
+
+.form__reg__radio {
     width: 16px;
     height: 16px;
 }
 
-.radio{
+.radio {
     height: 58px;
     margin-top: 60px;
     align-items: center;
 }
-  .row:after {
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-.form__reg__sub{
+}
+
+.form__reg__sub {
     float: left;
     font-size: 18px;
     line-height: 25px;
@@ -1245,20 +1255,22 @@ font-size: 18px;
     font-family: $font-m;
     color: $color-form;
 }
-.radio__btn{
+
+.radio__btn {
     width: 190px;
 }
-  .btn__second-form {
-      float: right;
+
+.btn__second-form {
+    float: right;
     font-size: 15px;
-line-height: 23px;
+    line-height: 23px;
     font-weight: 400;
     background-color: $color-g;
     font-family: $font-m;
     color: $color-w;
-padding: 19px 112px;
+    padding: 19px 112px;
     text-align: center;
-    
+
     transition: all 0.4s;
     cursor: pointer;
 
@@ -1270,7 +1282,7 @@ padding: 19px 112px;
 
         &:after {
             content: '\27F6';
-position: absolute;
+            position: absolute;
             opacity: 0;
             top: 0;
             right: -20px;
@@ -1290,13 +1302,14 @@ position: absolute;
     }
 }
 
-.label__radio{
+.label__radio {
     font-size: 18px;
-line-height: 25px;
-font-weight: 400;
-font-family: $font-m;
-color: $color-form;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: $font-m;
+    color: $color-form;
 }
-.reg-form *{
+
+.reg-form * {
     outline: none;
 }
