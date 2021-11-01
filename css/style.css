@@ -1434,4 +1434,120 @@ a {
 .reg-form * {
   outline: none;
 }
+
+/*<!--About-->*/
+.map__descr__about {
+  max-width: 1183px;
+  height: 674px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.map__descr__about img {
+  width: 839px;
+  height: 491px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.map__descr__about h2 {
+  text-align: center;
+  margin-bottom: 38px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 108.9%;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.165em;
+}
+
+.greeting {
+  max-width: 688px;
+  min-height: 674px;
+  position: absolute;
+  padding: 42px 33px 0px 33px;
+  background: rgba(0, 0, 0, 0.48);
+  right: 0;
+}
+
+.greeting p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 108.9%;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.165em;
+}
+
+.team__box {
+  margin: 48px auto 36px auto;
+  max-width: 1065px;
+}
+
+.director,
+.manager {
+  width: 522px;
+  min-height: 583px;
+  background: #ffffff;
+  border: 1px solid #272727;
+  padding: 58px 60px 16px 60px;
+}
+
+.position {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "Roboto", sans-serif;
+  color: #363636;
+  text-align: center;
+}
+
+.person-tel {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.person-tel a {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #363636;
+  font-family: "Roboto", sans-serif;
+  margin-left: 20px;
+}
+
+.persons-telegram {
+  margin-top: 14px;
+  text-align: center;
+}
+
+.persons-telegram a {
+  font-size: 25px;
+  color: #363636;
+}
+
+.brands__box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (301px)[auto-fill];
+      grid-template-columns: repeat(auto-fill, 301px);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1183px;
+  grid-row-gap: 40px;
+  grid-column-gap: 20px;
+  margin-top: 66px;
+}
+
+.brand {
+  width: 301px;
+  height: 115px;
+}
 /*# sourceMappingURL=style.css.map */
