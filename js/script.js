@@ -21,4 +21,12 @@ $('.modal .close').on('click', function () {
 
 $(function(){
   $("#includedContent").load("footer.html"); 
+  $("#includedForm").load("footer-form.html"); 
 });
+
+
+window.onbeforeunload = () => {
+  for(const form of document.getElementsByTagName('form')) {
+    form.reset();
+  }
+}
