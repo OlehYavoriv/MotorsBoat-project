@@ -1550,4 +1550,8 @@ a {
   width: 301px;
   height: 115px;
 }
+
+.email__title {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
