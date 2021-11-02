@@ -7,9 +7,7 @@ document.forms.form.onsubmit = function () {
       alert("Error! Please fill in all fields...");
       return 1;
     } else {
-      alert("Thank you! Your message has been sent, please reply... :)");
-    }
-    console.log("You have a new message!\n" + "Name: " + name + "\n" + "Email: " + email + "\n" + "Message: " + message);
+     
     return false;
+    }
   };
-  
