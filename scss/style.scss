@@ -1043,6 +1043,22 @@ a {
 }
 
 .modal-body {
+    h3 {
+        font-size: 20px;
+        text-align: center;
+        color: $color-g;
+        font-weight: 700;
+        font-family: $font-m;
+    }
+
+    p {
+        font-size: 16px;
+        text-align: center;
+        color: $color-g;
+        font-weight: 400;
+        font-family: $font-m;
+    }
+
     position: relative;
     flex: 1 1 auto;
     padding: 15px;
@@ -1601,4 +1617,93 @@ a {
     line-height: 23px;
     font-family: $font-m;
     color: $color-g;
+}
+
+.cart__form {
+    * {
+        outline: none;
+    }
+
+    max-width: 1160px;
+    margin: 0 auto;
+    margin-top: 88px;
+
+}
+
+.cart__form-first_section {
+    background: #FFFFFF;
+    border: 1px solid #E4E5E4;
+    width: 618px;
+    height: 511px;
+    padding: 35px 30px 65px 35px;
+}
+
+.cart__form-second_section {
+    width: 526px;
+    height: 511px;
+    background: #FFFFFF;
+    border: 1px solid #E4E5E4;
+    padding: 35px 88px 69px 88px;
+}
+
+.form__cart__title {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    font-family: $font-m;
+    color: $color-g;
+}
+
+.form__cart__input {
+    float: right;
+    border: 1px solid #E4E5E4;
+    width: 70%;
+    height: 66px;
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.cart__form__textarea {
+    width: 350px;
+    height: 233px;
+    resize: none;
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    margin-top: 40px;
+    border: 1px solid #E4E5E4;
+}
+
+.form__cart__btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 52px;
+    padding: 22px 128px;
+    background-color: $color-g;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: $font-m;
+    color: $color-w;
+
+    &:hover {
+        border: 1.5px solid $color-g;
+        color: #50626C;
+        background-color: rgba(80, 98, 108, 0.3);
+    }
+}
+
+.modal-content__cart {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: $color-w;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    outline: 0;
+    min-height: 180px;
 }
