@@ -30,3 +30,9 @@ window.onbeforeunload = () => {
     form.reset();
   }
 }
+
+function reset() {
+  for(const form of document.getElementById('cart')) {
+    form.reset();
+  }
+}
