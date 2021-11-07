@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Motors Boat</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./img/boat-icon-vector.png" type="image/png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <div id="preloader">
+    <div id="preloader_preload"></div>
+  </div>
+  <header class="header">
+    <div class="container">
+      <div class="header__body">
+        <div class="header__burger">
+          <span></span>
+        </div>
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li class="header__link"><a href="#categories">Categories</a></li>
+            <li class="header__link"><a href="#About">About us</a></li>
+            <li class="header__link"><a href="#delivery">Delivery</a></li>
+            <li class="header__link"><a href="#Articles">Articles</a></li>
+            <li class="header__link"><a href="#reviews">Reviews</a></li>
+            <li class="header__link"><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="#Main" class="header__logo">
+          <img class="logo-style" src="./img/logomain.png" alt="Logo" />
+        </a>
+        <div class="header__icons d-flex">
+          <a href="#"><i class="fas fa-search"></i></a>
+          <a href="#" data-toggle="modal" data-target="#modal-1"><i class="far fa-user"></i></a>
+          <a href="#"><i class="fas fa-shopping-cart cart"><span>0</span></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="section" id="section">
+    <div class="container">
+      <h1 data-wow-delay="1.5s" class="main__title animate__animated animate__fadeInLeft wow center">Cart</h1>
+      <h2 class="personal__area animate__animated animate__fadeInLeft wow center" data-wow-delay="1.8s">boats & motors
+      </h2>
+      <a href="./index.html#Product"
+        class="btn_section animated-button1"><span></span><span></span><span></span><span></span>Go to catalog</a>
+      <div class="phone__time d-flex">
+        <div class="header_phone">
+          <a href="tel:+380970509048">(097)-050-90-42</a>
+        </div>
+        <div class="header__work-time">
+          <p>
+            Work time:<br />
+            Mon-Sun 10-19
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="cart">
+    <div class="container">
+      <h2 class="section__title">Basket</h2>
+      <div class="product-container">
+        <div class="product-header">
+          <h5 class="product-title header-cart__style">Product</h5>
+          <h5 class="price header-cart__style none__border">Price</h5>
+          <h5 class="quantity header-cart__style none__border">Quantity</h5>
+          <h5 class="amount header-cart__style none__border">Amount</h5>
+        </div>
+        <div class="products"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <div id="includedContent"></div>
+
+  <div id="modal-1" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">Log in:</h3>
+          <a href="#" class="close" title="close">×</a>
+        </div>
+        <div class="modal-body">
+          <form class="login__form">
+            <div class="form__item__login">
+              <label class="label__login">Email:</label><br>
+              <input class="input__log__in" type="email">
+            </div>
+            <div class="form__item__login">
+              <label class="label__login">Password:</label><br>
+              <input class="input__log__in" type="password">
+            </div>
+            <a href="#" class="forgot__pass">Forgot your password?</a><br>
+            <button type="submit" class="btn__log"><span>Log in</button><br>
+            <a href="./registration.html" class="create__ac">Don't have an account yet?</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="./js/jquery.js"></script>
+  <script src="./js/wow.min.js"></script>
+  <script src="./js/animation.js"></script>
+  <script src="./js/burger-menu.js"></script>
+  <script src="./js/preloader.js"></script>
+  <script src="./js/scroll.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/basket.js"></script>
+</body>
+</html>
