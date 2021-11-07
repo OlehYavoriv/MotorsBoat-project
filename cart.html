@@ -74,14 +74,55 @@
           <h5 class="quantity header-cart__style none__border">Quantity</h5>
           <h5 class="amount header-cart__style none__border">Amount</h5>
         </div>
-        <div class="products"></div>
+        <div id="cart__prod" class="products"></div>
       </div>
-
+      <form id="cart" class="cart__form d-flex">
+        <div class="cart__form-first_section">
+          <h3 class="form__cart__title">Delivery address</h3>
+          <div class="row">
+            <div class="form__reg__label">
+              <label>Country: <span><sup class="required">*</sup></span></label>
+            </div>
+            <div>
+              <input class="form__cart__input" name="Country" type="text" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form__reg__label">
+              <label>Region: <span><sup class="required">*</sup></span></label>
+            </div>
+            <div>
+              <input class="form__cart__input" name="Region" type="text" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form__reg__label">
+              <label>Town: <span><sup class="required">*</sup></span></label>
+            </div>
+            <div>
+              <input class="form__cart__input" name="Town" type="text" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form__reg__label">
+              <label>Address: <span><sup class="required">*</sup></span></label>
+            </div>
+            <div>
+              <input class="form__cart__input" name="Address" type="text" required>
+            </div>
+          </div>
+        </div>
+        <div class="cart__form-second_section">
+          <h3 class="form__cart__title">A comment</h3>
+          <textarea class="cart__form__textarea"></textarea>
+          <button data-toggle="modal" data-target="#modal-2" class="form__cart__btn" type="submit"
+            onclick="reset()">Confirm</button>
+        </div>
+      </form>
     </div>
   </section>
 
   <div id="includedContent"></div>
-
   <div id="modal-1" class="modal">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -107,6 +148,21 @@
       </div>
     </div>
   </div>
+  <div id="modal-2" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content__cart">
+        <div class="modal-header">
+          <h3 class="modal-title">Order № 2683</h3>
+          <a href="#" class="close" title="close">×</a>
+        </div>
+        <div class="modal-body">
+          <h3>Thank you for your order!</h3>
+          <br>
+          <p>Wait for the parcel:)</p>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
   <script src="./js/jquery.js"></script>
   <script src="./js/wow.min.js"></script>
@@ -117,4 +173,5 @@
   <script src="./js/script.js"></script>
   <script src="./js/basket.js"></script>
 </body>
+
 </html>
