@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motors Boat</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./img/boat-icon-vector.png" type="image/png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <div id="preloader">
+    <div id="preloader_preload"></div>
+  </div>
+  <header class="header">
+    <div class="container">
+      <div class="header__body">
+        <div class="header__burger">
+          <span></span>
+        </div>
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li class="header__link"><a href="#categories">Categories</a></li>
+            <li class="header__link"><a href="#About">About us</a></li>
+            <li class="header__link"><a href="#delivery">Delivery</a></li>
+            <li class="header__link"><a href="#Articles">Articles</a></li>
+            <li class="header__link"><a href="#reviews">Reviews</a></li>
+            <li class="header__link"><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="#Main" class="header__logo">
+          <img class="logo-style" src="./img/logomain.png" alt="Logo" />
+        </a>
+        <div class="header__icons d-flex">
+          <a href="#"><i class="fas fa-search"></i></a>
+          <a href="#" data-toggle="modal" data-target="#modal-1"><i class="far fa-user"></i></a>
+          <a href="./cart.html"><i class="fas fa-shopping-cart cart"><span>0</span></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="section" id="section">
+    <div class="container">
+      <h1 data-wow-delay="1.5s" class="main__title animate__animated animate__fadeInLeft wow center">Contact</h1>
+      <h2 class="personal__area animate__animated animate__fadeInLeft wow center" data-wow-delay="1.8s">boats & motors
+      </h2>
+      <a href="./index.html#Product"
+        class="btn_section animated-button1"><span></span><span></span><span></span><span></span>Go to catalog</a>
+      <div class="phone__time d-flex">
+        <div class="header_phone">
+          <a href="tel:+380970509048">(097)-050-90-42</a>
+        </div>
+        <div class="header__work-time">
+          <p>
+            Work time:<br />
+            Mon-Sun 10-19
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="contact">
+    <div class="container">
+        <h2 class="section__title">Contact</h2>
+        <p class="contact__text animate__animated animate__fadeIn wow " >In our store you can choose
+            and purchase boats and outboard motors from leading Russian manufacturers. Experts will advise and select
+            suitable solutions if goods are out of stock. You can place an order and arrange delivery to the address</p>
+      <div class="map__info__contact">
+        <img class="map__contact animate__animated animate__fadeInLeft wow" src="./img/map.png" alt="Map" >
+        <div class="contact__info animate__animated animate__fadeInRight wow">
+            <div class="pickup d-flex disc__mg__bt">
+                <p>Pickup point in<br> London:</p>
+                <p>212 Birchwood Rd,<br> Dartford DA2 7HA</p>
+              </div>
+              <div class="descr__phone d-flex disc__mg__bt">
+                <p>Phone:</p>
+                <p><a href="tel:+380970509048">0(97)-050-95-63</a></p>
+              </div>
+              <div class="descr__email d-flex disc__mg__bt">
+                <p>Email:</p>
+                <p><a href="mailto:b&m@gmail.com">b&m@gmail.com</a></p>
+              </div>
+              <div class="descr__schedule d-flex">
+                <p>Schedule:</p>
+                <p>Sun 10:00-17:00<br>Sat 10:00-19:00<br>Mon-Fri 09:00-20:00</p>
+              </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="includedForm"></div>
+  <div id="includedContent"></div>
+  
+  <div id="modal-1" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">Log in:</h3>
+          <a href="#" class="close" title="close">×</a>
+        </div>
+        <div class="modal-body">
+          <form class="login__form">
+            <div class="form__item__login">
+              <label class="label__login">Email:</label><br>
+              <input class="input__log__in" type="email">
+            </div>
+            <div class="form__item__login">
+              <label class="label__login">Password:</label><br>
+              <input class="input__log__in" type="password">
+            </div>
+            <a href="#" class="forgot__pass">Forgot your password?</a><br>
+            <button type="submit" class="btn__log"><span>Log in</button><br>
+            <a href="./registration.html" class="create__ac">Don't have an account yet?</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="./js/jquery.js"></script>
+  <script src="./js/wow.min.js"></script>
+  <script src="./js/animation.js"></script>
+  <script src="./js/burger-menu.js"></script>
+  <script src="./js/preloader.js"></script>
+  <script src="./js/scroll.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
