@@ -66,112 +66,113 @@
   <section class="section" id="form-registration">
     <div class="container">
       <h2 class="section__title">Registration</h2>
-      <div class="registration__form__first">
-        <form class="reg-form">
-          <h3 class="form__reg__title">Basic information:</h3>
-          <div class="row">
-            <div class="form__reg__label">
-              <label for="fname">Surname: <span><sup class="required">*</sup></span></label>
+      <div class="registration__form__main">
+        <form class="reg-form" action="https://formspree.io/f/mzbylrww" method="POST">
+          <div class="registration__form__first">
+            <h3 class="form__reg__title">Basic information:</h3>
+            <div class="row">
+              <div class="form__reg__label">
+                <label  name="name">Surname: <span><sup class="required">*</sup></span></label>
+              </div>
+              <div>
+                <input class="form__reg__input" name="Surname" type="text" required>
+              </div>
             </div>
-            <div>
-              <input class="form__reg__input" type="text">
+            <div class="row">
+              <div class="form__reg__label">
+                <label>First name: <span><sup class="required">*</sup></span></label>
+              </div>
+              <div>
+                <input class="form__reg__input" name="Name" type="text" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form__reg__label">
+                <label>Phone: <span><sup class="required">*</sup></span></label>
+              </div>
+              <div>
+                <input class="form__reg__input" name="Phone" type="tel" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form__reg__label">
+                <label>Email: <span><sup class="required">*</sup></span></label>
+              </div>
+              <div>
+                <input class="form__reg__input" type="email" name="_replyto" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form__reg__label">
+                <label>Password: <span><sup class="required">*</sup></span></label>
+              </div>
+              <div>
+                <input class="form__reg__input" name="Password" type="password" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form__reg__label">
+                <label>Confirm<br>password: <span><sup class="required">*</sup></span></label>
+              </div>
+              <div>
+                <input class="form__reg__input" type="password" required>
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div class="form__reg__label">
-              <label for="fname">First name: <span><sup class="required">*</sup></span></label>
+
+          <div class="registration__form__second">
+            <h3 class="form__reg__title">Our address:</h3>
+            <div class="row">
+              <div class="form__reg__label">
+                <label>Country: <span><sup class="required">*</sup></span></label>
+              </div>
+              <div>
+                <input class="form__reg__input" name="Country" type="text" required>
+              </div>
             </div>
-            <div>
-              <input class="form__reg__input" type="text">
+            <div class="row">
+              <div class="form__reg__label">
+                <label>Region: <span><sup class="required">*</sup></span></label>
+              </div>
+              <div>
+                <input class="form__reg__input" name="Region" type="text" required>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="form__reg__label">
-              <label for="fname">Phone: <span><sup class="required">*</sup></span></label>
+            <div class="row">
+              <div class="form__reg__label">
+                <label>Town: <span><sup class="required">*</sup></span></label>
+              </div>
+              <div>
+                <input class="form__reg__input" name="Town" type="text" required>
+              </div>
             </div>
-            <div>
-              <input class="form__reg__input" type="tel">
+            <div class="row">
+              <div class="form__reg__label">
+                <label>Index: <span><sup class="required">*</sup></span></label>
+              </div>
+              <div>
+                <input class="form__reg__input" name="Index" type="text" required>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="form__reg__label">
-              <label for="fname">Email: <span><sup class="required">*</sup></span></label>
+            <div class="row">
+              <div class="form__reg__label">
+                <label>Address: <span><sup class="required">*</sup></span></label>
+              </div>
+              <div>
+                <input class="form__reg__input" name="Address" type="text" required>
+              </div>
             </div>
-            <div>
-              <input class="form__reg__input" type="email">
+            <div class="row d-flex radio">
+              <label class="form__reg__sub">Subscribe to news:</label>
+              <div class="radio__btn d-flex label__radio">
+                <input class="form__reg__radio" type="radio" name="radio button">Yes
+                <input class="form__reg__radio" type="radio" name="radio button">No
+              </div>
+              <button type="submit" class="btn__second-form"><span>Continue</button>
             </div>
-          </div>
-          <div class="row">
-            <div class="form__reg__label">
-              <label for="fname">Password: <span><sup class="required">*</sup></span></label>
-            </div>
-            <div>
-              <input class="form__reg__input" type="password">
-            </div>
-          </div>
-          <div class="row">
-            <div class="form__reg__label">
-              <label for="fname">Confirm<br>password: <span><sup class="required">*</sup></span></label>
-            </div>
-            <div>
-              <input class="form__reg__input" type="password">
-            </div>
-          </div>
         </form>
       </div>
-      <div class="registration__form__second">
-        <form class="reg-form">
-          <h3 class="form__reg__title">Our address:</h3>
-          <div class="row">
-            <div class="form__reg__label">
-              <label for="fname">Country: <span><sup class="required">*</sup></span></label>
-            </div>
-            <div>
-              <input class="form__reg__input" type="text">
-            </div>
-          </div>
-          <div class="row">
-            <div class="form__reg__label">
-              <label for="fname">Region: <span><sup class="required">*</sup></span></label>
-            </div>
-            <div>
-              <input class="form__reg__input" type="text">
-            </div>
-          </div>
-          <div class="row">
-            <div class="form__reg__label">
-              <label for="fname">Town: <span><sup class="required">*</sup></span></label>
-            </div>
-            <div>
-              <input class="form__reg__input" type="text">
-            </div>
-          </div>
-          <div class="row">
-            <div class="form__reg__label">
-              <label for="fname">Index: <span><sup class="required">*</sup></span></label>
-            </div>
-            <div>
-              <input class="form__reg__input" type="text">
-            </div>
-          </div>
-          <div class="row">
-            <div class="form__reg__label">
-              <label for="fname">Address: <span><sup class="required">*</sup></span></label>
-            </div>
-            <div>
-              <input class="form__reg__input" type="text">
-            </div>
-          </div>
-          <div class="row d-flex radio">
-            <label for="fname" class="form__reg__sub">Subscribe to news:</label>
-            <div class="radio__btn d-flex label__radio">
-              <input class="form__reg__radio" type="radio" name="radio button">Yes
-              <input class="form__reg__radio" type="radio" name="radio button">No
-            </div>
-            <button class="btn__second-form"><span>Continue</button>
-          </div>
-        </form>
-      </div>
+    </div>
     </div>
   </section>
 
