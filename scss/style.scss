@@ -1831,7 +1831,7 @@ a {
     margin:10px;
 }
 
-.feedback_btn{
+.feedback_btn {
     display: block;
     margin: 0 auto;
     width: 390px;
@@ -1840,10 +1840,10 @@ a {
     background-color: $color-g;
     color: $color-w;
     font-size: 15px;
-line-height: 34px;
-font-family: $font-m;
-text-align: center;
-transition: all 0.4s;
+    line-height: 34px;
+    font-family: $font-m;
+    text-align: center;
+    transition: all 0.4s;
     cursor: pointer;
 
     span {
@@ -1876,21 +1876,27 @@ transition: all 0.4s;
 
 .rating-box {
     display: inline-block;
+
     .rating-container {
-      direction: rtl !important;
-      label {
-        display: inline-block;
-        margin: 15px 0;
-        color: #d4d4d4;
-        cursor: pointer;
-        font-size: 50px;
-        transition: color 0.2s;
-      }
-      input {
-        display: none;
-      }
-      label:hover, label:hover ~ label, input:checked ~ label  {
-        color: gold;
-      }
+        direction: rtl !important;
+
+        label {
+            display: inline-block;
+            margin: 15px 0;
+            color: #d4d4d4;
+            cursor: pointer;
+            font-size: 50px;
+            transition: color 0.2s;
+        }
+
+        input {
+            display: none;
+        }
+
+        label:hover,
+        label:hover~label,
+        input:checked~label {
+            color: gold;
+        }
     }
-  }
+}
