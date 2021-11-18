@@ -5,12 +5,20 @@ $(document).ready(function(){
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1069,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
             infinite: true,
   
+          }
+        },
+        {
+          breakpoint: 770,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true
           }
         }]
     });
